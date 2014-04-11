@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/965/trunk/training
+END
+shapeclustering.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/964/trunk/training/shapeclustering.cpp
+END
+tessopt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/training/tessopt.cpp
+END
+commandlineflags.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/878/trunk/training/commandlineflags.cpp
+END
+degradeimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/965/trunk/training/degradeimage.h
+END
+tlog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/965/trunk/training/tlog.cpp
+END
+pango_font_info.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/965/trunk/training/pango_font_info.cpp
+END
+fileio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/964/trunk/training/fileio.cpp
+END
+ambiguous_words.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/964/trunk/training/ambiguous_words.cpp
+END
+normstrngs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/964/trunk/training/normstrngs.cpp
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/965/trunk/training/util.h
+END
+ligature_table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/965/trunk/training/ligature_table.cpp
+END
+mergenf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/training/mergenf.cpp
+END
+commontraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/878/trunk/training/commontraining.cpp
+END
+icuerrorcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/878/trunk/training/icuerrorcode.h
+END
+boxchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/965/trunk/training/boxchar.h
+END
+cntraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/674/trunk/training/cntraining.cpp
+END
+wordlist2dawg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/878/trunk/training/wordlist2dawg.cpp
+END
+mftraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/964/trunk/training/mftraining.cpp
+END
+degradeimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/965/trunk/training/degradeimage.cpp
+END
+unicharset_extractor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/964/trunk/training/unicharset_extractor.cpp
+END
+stringrenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/965/trunk/training/stringrenderer.h
+END
+combine_tessdata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/878/trunk/training/combine_tessdata.cpp
+END
+tessopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/training/tessopt.h
+END
+commandlineflags.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/878/trunk/training/commandlineflags.h
+END
+text2image.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/965/trunk/training/text2image.cpp
+END
+classifier_tester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/878/trunk/training/classifier_tester.cpp
+END
+tlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/965/trunk/training/tlog.h
+END
+pango_font_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/965/trunk/training/pango_font_info.h
+END
+fileio.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/964/trunk/training/fileio.h
+END
+normstrngs.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/964/trunk/training/normstrngs.h
+END
+boxchar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/965/trunk/training/boxchar.cpp
+END
+mergenf.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/training/mergenf.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/964/trunk/training/Makefile.am
+END
+ligature_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/965/trunk/training/ligature_table.h
+END
+commontraining.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/878/trunk/training/commontraining.h
+END
+dawg2wordlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/704/trunk/training/dawg2wordlist.cpp
+END
+set_unicharset_properties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/878/trunk/training/set_unicharset_properties.cpp
+END
+stringrenderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/965/trunk/training/stringrenderer.cpp
+END

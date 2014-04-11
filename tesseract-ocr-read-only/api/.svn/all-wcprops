@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/974/trunk/api
+END
+pdfrenderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/962/trunk/api/pdfrenderer.cpp
+END
+capi.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/878/trunk/api/capi.h
+END
+tesseractmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/974/trunk/api/tesseractmain.cpp
+END
+apitypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/657/trunk/api/apitypes.h
+END
+baseapi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/974/trunk/api/baseapi.cpp
+END
+renderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/890/trunk/api/renderer.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/962/trunk/api/Makefile.am
+END
+baseapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/962/trunk/api/baseapi.h
+END
+renderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/962/trunk/api/renderer.h
+END
+capi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/903/trunk/api/capi.cpp
+END

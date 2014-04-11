@@ -1,0 +1,497 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/974/trunk/textord
+END
+textord.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/textord/textord.h
+END
+cjkpitch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/648/trunk/textord/cjkpitch.cpp
+END
+alignedblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/648/trunk/textord/alignedblob.cpp
+END
+devanagari_processing.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/648/trunk/textord/devanagari_processing.h
+END
+makerow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/932/trunk/textord/makerow.cpp
+END
+scanedg.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/948/trunk/textord/scanedg.h
+END
+topitch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/textord/topitch.cpp
+END
+tabfind.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/648/trunk/textord/tabfind.h
+END
+tordmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/949/trunk/textord/tordmain.cpp
+END
+wordseg.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/textord/wordseg.h
+END
+underlin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/878/trunk/textord/underlin.cpp
+END
+workingpartset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/878/trunk/textord/workingpartset.cpp
+END
+colpartitionset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/878/trunk/textord/colpartitionset.cpp
+END
+blobgrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/648/trunk/textord/blobgrid.cpp
+END
+fpchop.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/878/trunk/textord/fpchop.h
+END
+oldbasel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/textord/oldbasel.cpp
+END
+textord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/textord/textord.cpp
+END
+drawtord.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/textord/drawtord.h
+END
+linefind.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/648/trunk/textord/linefind.h
+END
+devanagari_processing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/948/trunk/textord/devanagari_processing.cpp
+END
+ccnontextdetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/757/trunk/textord/ccnontextdetect.cpp
+END
+edgblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/948/trunk/textord/edgblob.cpp
+END
+edgloop.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/948/trunk/textord/edgloop.h
+END
+gap_map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/textord/gap_map.cpp
+END
+pithsync.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/pithsync.h
+END
+tabfind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/951/trunk/textord/tabfind.cpp
+END
+alignedblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/648/trunk/textord/alignedblob.h
+END
+pitsync1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/textord/pitsync1.cpp
+END
+strokewidth.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/648/trunk/textord/strokewidth.h
+END
+equationdetectbase.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/646/trunk/textord/equationdetectbase.h
+END
+colfind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/877/trunk/textord/colfind.cpp
+END
+topitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/textord/topitch.h
+END
+fpchop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/textord/fpchop.cpp
+END
+colpartitiongrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/820/trunk/textord/colpartitiongrid.h
+END
+underlin.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/underlin.h
+END
+tablefind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/820/trunk/textord/tablefind.cpp
+END
+imagefind.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/663/trunk/textord/imagefind.h
+END
+blobgrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/648/trunk/textord/blobgrid.h
+END
+edgloop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/877/trunk/textord/edgloop.cpp
+END
+bbgrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/950/trunk/textord/bbgrid.h
+END
+tabvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/648/trunk/textord/tabvector.h
+END
+pithsync.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/textord/pithsync.cpp
+END
+blkocc.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/textord/blkocc.h
+END
+ccnontextdetect.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/648/trunk/textord/ccnontextdetect.h
+END
+edgblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/948/trunk/textord/edgblob.h
+END
+strokewidth.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/820/trunk/textord/strokewidth.cpp
+END
+equationdetectbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/646/trunk/textord/equationdetectbase.cpp
+END
+gap_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/textord/gap_map.h
+END
+colpartition.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/820/trunk/textord/colpartition.h
+END
+tablerecog.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/textord/tablerecog.h
+END
+colpartitiongrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/820/trunk/textord/colpartitiongrid.cpp
+END
+tovars.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/tovars.cpp
+END
+pitsync1.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/pitsync1.h
+END
+baselinedetect.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/871/trunk/textord/baselinedetect.h
+END
+sortflts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/textord/sortflts.cpp
+END
+drawedg.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/147/trunk/textord/drawedg.h
+END
+colfind.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/877/trunk/textord/colfind.h
+END
+imagefind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/663/trunk/textord/imagefind.cpp
+END
+bbgrid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/648/trunk/textord/bbgrid.cpp
+END
+tabvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/820/trunk/textord/tabvector.cpp
+END
+blkocc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/blkocc.cpp
+END
+tablefind.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/textord/tablefind.h
+END
+textlineprojection.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/648/trunk/textord/textlineprojection.h
+END
+tospace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/textord/tospace.cpp
+END
+cjkpitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/cjkpitch.h
+END
+scanedg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/948/trunk/textord/scanedg.cpp
+END
+colpartition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/878/trunk/textord/colpartition.cpp
+END
+tablerecog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/526/trunk/textord/tablerecog.cpp
+END
+makerow.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/974/trunk/textord/makerow.h
+END
+wordseg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/textord/wordseg.cpp
+END
+baselinedetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/883/trunk/textord/baselinedetect.cpp
+END
+drawedg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/textord/drawedg.cpp
+END
+tordmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/tordmain.h
+END
+tovars.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/textord/tovars.h
+END
+sortflts.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/sortflts.h
+END
+drawtord.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/878/trunk/textord/drawtord.cpp
+END
+colpartitionset.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/878/trunk/textord/colpartitionset.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/948/trunk/textord/Makefile.am
+END
+workingpartset.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/301/trunk/textord/workingpartset.h
+END
+linefind.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/974/trunk/textord/linefind.cpp
+END
+textlineprojection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/877/trunk/textord/textlineprojection.cpp
+END
+oldbasel.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/textord/oldbasel.h
+END

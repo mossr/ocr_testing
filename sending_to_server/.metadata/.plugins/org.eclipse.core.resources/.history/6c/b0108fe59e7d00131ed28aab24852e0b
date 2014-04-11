@@ -1,0 +1,96 @@
+package com.example.photo2server;
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.Socket;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.Enumeration;
+
+import android.os.AsyncTask;
+import android.text.format.Formatter;
+import android.util.Log;
+
+public class SendFile extends AsyncTask<String, Integer, Void> {
+	private Socket client;
+	private FileInputStream fileInputStream;
+	private BufferedInputStream bufferedInputStream;
+	private OutputStream outputStream;
+	private File file;
+	
+	public SendFile(File file) {
+		this.file = file;
+	}
+	
+	protected void onProgressUpdate() {
+		//called when the background task makes any progress
+	}
+
+	protected void onPreExecute() {
+		//called before doInBackground() is started
+	}
+	protected void onPostExecute() {
+		//called after doInBackground() has finished 
+	}
+
+	@Override
+	protected Void doInBackground(String... params) {
+		// TODO Auto-generated method stub
+		sendFile(this.file);
+		return null;
+	}
+	
+	public void sendFile(File file) {
+		try {
+
+			client = new Socket("10.0.0.3", 7788);
+
+			byte[] mybytearray = new byte[(int) file.length()]; //create a byte array to file
+
+			fileInputStream = new FileInputStream(file);
+			bufferedInputStream = new BufferedInputStream(fileInputStream);  
+
+			bufferedInputStream.read(mybytearray, 0, mybytearray.length); //read the file
+
+			outputStream = client.getOutputStream();
+
+			outputStream.write(mybytearray, 0, mybytearray.length); //write file to the output stream byte by byte
+			outputStream.flush();
+			bufferedInputStream.close();
+			outputStream.close();
+			client.close();
+
+//			text.setText("File Sent");
+
+
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public String getLocalIpAddress() {
+	    try {
+	        for (Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces(); en.hasMoreElements();) {
+	            NetworkInterface intf = en.nextElement();
+	            for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements();) {
+	                InetAddress inetAddress = enumIpAddr.nextElement();
+	                if (!inetAddress.isLoopbackAddress()) {
+	                    String ip = Formatter.formatIpAddress(inetAddress.getHostAddress()());
+	                    Log.i(TAG, "***** IP="+ ip);
+	                    return ip;
+	                }
+	            }
+	        }
+	    } catch (SocketException ex) {
+	        Log.e(TAG, ex.toString());
+	    }
+	    return null;
+	}
+}

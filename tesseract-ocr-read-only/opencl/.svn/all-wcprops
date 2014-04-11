@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/968/trunk/opencl
+END
+openclwrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/921/trunk/opencl/openclwrapper.cpp
+END
+openclwrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/968/trunk/opencl/openclwrapper.h
+END
+oclkernels.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/919/trunk/opencl/oclkernels.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/910/trunk/opencl/Makefile.am
+END
+opencl_device_selection.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/921/trunk/opencl/opencl_device_selection.h
+END

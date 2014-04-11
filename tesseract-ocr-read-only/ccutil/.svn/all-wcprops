@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/974/trunk/ccutil
+END
+unichar.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/941/trunk/ccutil/unichar.h
+END
+elst2.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/529/trunk/ccutil/elst2.h
+END
+indexmapbidi.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/658/trunk/ccutil/indexmapbidi.h
+END
+ndminx.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/209/trunk/ccutil/ndminx.h
+END
+tessdatamanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/890/trunk/ccutil/tessdatamanager.cpp
+END
+unicharset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/942/trunk/ccutil/unicharset.cpp
+END
+ambigs.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/890/trunk/ccutil/ambigs.h
+END
+unicodes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/658/trunk/ccutil/unicodes.cpp
+END
+scanutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/685/trunk/ccutil/scanutils.h
+END
+clst.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/658/trunk/ccutil/clst.h
+END
+strngs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccutil/strngs.cpp
+END
+params.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/881/trunk/ccutil/params.cpp
+END
+globaloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccutil/globaloc.h
+END
+errcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/942/trunk/ccutil/errcode.h
+END
+elst2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/ccutil/elst2.cpp
+END
+unichar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/974/trunk/ccutil/unichar.cpp
+END
+indexmapbidi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/658/trunk/ccutil/indexmapbidi.cpp
+END
+object_cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/878/trunk/ccutil/object_cache.h
+END
+tesscallback.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/878/trunk/ccutil/tesscallback.h
+END
+unicity_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/658/trunk/ccutil/unicity_table.h
+END
+genericvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/892/trunk/ccutil/genericvector.h
+END
+scanutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/691/trunk/ccutil/scanutils.cpp
+END
+clst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/860/trunk/ccutil/clst.cpp
+END
+helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/938/trunk/ccutil/helpers.h
+END
+bits16.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/ccutil/bits16.cpp
+END
+hashfn.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/974/trunk/ccutil/hashfn.h
+END
+secname.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/4/trunk/ccutil/secname.h
+END
+host.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/773/trunk/ccutil/host.h
+END
+errcode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/ccutil/errcode.cpp
+END
+strngs.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccutil/strngs.h
+END
+ccutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/702/trunk/ccutil/ccutil.h
+END
+universalambigs.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/878/trunk/ccutil/universalambigs.h
+END
+bitvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/874/trunk/ccutil/bitvector.h
+END
+stderr.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/4/trunk/ccutil/stderr.h
+END
+elst.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/529/trunk/ccutil/elst.h
+END
+bits16.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/156/trunk/ccutil/bits16.h
+END
+basedir.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/774/trunk/ccutil/basedir.h
+END
+genericheap.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/878/trunk/ccutil/genericheap.h
+END
+kdpair.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccutil/kdpair.h
+END
+serialis.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/890/trunk/ccutil/serialis.h
+END
+ccutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/702/trunk/ccutil/ccutil.cpp
+END
+tprintf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/940/trunk/ccutil/tprintf.cpp
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccutil/platform.h
+END
+universalambigs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/878/trunk/ccutil/universalambigs.cpp
+END
+sorthelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/ccutil/sorthelper.h
+END
+unicharmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/209/trunk/ccutil/unicharmap.h
+END
+memry.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/647/trunk/ccutil/memry.h
+END
+nwmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/860/trunk/ccutil/nwmain.h
+END
+bitvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/874/trunk/ccutil/bitvector.cpp
+END
+ambigs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/890/trunk/ccutil/ambigs.cpp
+END
+doubleptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/ccutil/doubleptr.h
+END
+elst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/860/trunk/ccutil/elst.cpp
+END
+tessdatamanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/878/trunk/ccutil/tessdatamanager.h
+END
+basedir.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/ccutil/basedir.cpp
+END
+unicharset.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/874/trunk/ccutil/unicharset.h
+END
+serialis.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/890/trunk/ccutil/serialis.cpp
+END
+mainblk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/907/trunk/ccutil/mainblk.cpp
+END
+unicodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/658/trunk/ccutil/unicodes.h
+END
+ocrclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/677/trunk/ccutil/ocrclass.h
+END
+qrsequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/ccutil/qrsequence.h
+END
+lsterr.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/208/trunk/ccutil/lsterr.h
+END
+globaloc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/ccutil/globaloc.cpp
+END
+unicharmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/742/trunk/ccutil/unicharmap.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/937/trunk/ccutil/Makefile.am
+END
+params.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/939/trunk/ccutil/params.h
+END
+memry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/ccutil/memry.cpp
+END
+tprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/940/trunk/ccutil/tprintf.h
+END
+fileerr.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/4/trunk/ccutil/fileerr.h
+END

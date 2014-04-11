@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/708/trunk/neural_networks/runtime
+END
+neural_net.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/526/trunk/neural_networks/runtime/neural_net.h
+END
+sigmoid_table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/526/trunk/neural_networks/runtime/sigmoid_table.cpp
+END
+neuron.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/526/trunk/neural_networks/runtime/neuron.cpp
+END
+input_file_buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/526/trunk/neural_networks/runtime/input_file_buffer.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/708/trunk/neural_networks/runtime/Makefile.am
+END
+neuron.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/526/trunk/neural_networks/runtime/neuron.h
+END
+neural_net.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/526/trunk/neural_networks/runtime/neural_net.cpp
+END
+input_file_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/526/trunk/neural_networks/runtime/input_file_buffer.h
+END

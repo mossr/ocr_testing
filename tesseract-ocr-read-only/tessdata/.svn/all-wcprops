@@ -1,0 +1,749 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/974/trunk/tessdata
+END
+eng.user-words
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/894/trunk/tessdata/eng.user-words
+END
+spa.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.bigrams
+END
+slv.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/slv.traineddata
+END
+eng.user-patterns
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/894/trunk/tessdata/eng.user-patterns
+END
+cat.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/cat.traineddata
+END
+pdf.ttx
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/971/trunk/tessdata/pdf.ttx
+END
+ara.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.lm
+END
+kan.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/kan.traineddata
+END
+mal.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/mal.traineddata
+END
+ces.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ces.traineddata
+END
+fra.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.word-freq
+END
+chi_sim.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/656/trunk/tessdata/chi_sim.traineddata
+END
+eng.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.lm
+END
+rus.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.size
+END
+fra.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.nn
+END
+rus.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.nn
+END
+ara.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.fold
+END
+ita.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.size
+END
+ita.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.nn
+END
+tgl.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/tgl.traineddata
+END
+fra.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.params
+END
+fra.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.fold
+END
+fra.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.bigrams
+END
+rus.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.params
+END
+eng.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.fold
+END
+equ.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/646/trunk/tessdata/equ.traineddata
+END
+spa.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.size
+END
+pol.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/pol.traineddata
+END
+spa.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.nn
+END
+sqi.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/sqi.traineddata
+END
+eus.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/eus.traineddata
+END
+ita.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.params
+END
+nor.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/nor.traineddata
+END
+ron.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ron.traineddata
+END
+por.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/por.traineddata
+END
+ara.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ara.traineddata
+END
+spa.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.params
+END
+afr.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/afr.traineddata
+END
+eng.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/887/trunk/tessdata/eng.traineddata
+END
+ind.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/ind.traineddata
+END
+grc.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/829/trunk/tessdata/grc.traineddata
+END
+tha.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/tha.traineddata
+END
+eng.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.word-freq
+END
+nld.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/nld.traineddata
+END
+enm.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/enm.traineddata
+END
+aze.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/aze.traineddata
+END
+hin.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.word-freq
+END
+hin.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.lm
+END
+ara.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.bigrams
+END
+spa.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.word-freq
+END
+jpn.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/jpn.traineddata
+END
+heb.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/heb.traineddata
+END
+ita.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.bigrams
+END
+deu-frak.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/545/trunk/tessdata/deu-frak.traineddata
+END
+hin.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.bigrams
+END
+dan.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/dan.traineddata
+END
+bel.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/bel.traineddata
+END
+ita.tesseract_cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/662/trunk/tessdata/ita.tesseract_cube.nn
+END
+ben.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ben.traineddata
+END
+srp.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/srp.traineddata
+END
+ara.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.size
+END
+mkd.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/mkd.traineddata
+END
+ara.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.nn
+END
+fin.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/fin.traineddata
+END
+fra.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.lm
+END
+deu.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/deu.traineddata
+END
+rus.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.lm
+END
+hin.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/hin.traineddata
+END
+fra.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/fra.cube.size
+END
+eng.cube.size
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.size
+END
+msa.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/msa.traineddata
+END
+tam.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/tam.traineddata
+END
+eng.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.nn
+END
+bul.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/bul.traineddata
+END
+lav.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/lav.traineddata
+END
+ita.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.lm
+END
+ara.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.params
+END
+dan-frak.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/545/trunk/tessdata/dan-frak.traineddata
+END
+vie.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/770/trunk/tessdata/vie.traineddata
+END
+tel.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/tel.traineddata
+END
+osd.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/540/trunk/tessdata/osd.traineddata
+END
+isl.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/isl.traineddata
+END
+lit.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/lit.traineddata
+END
+spa.cube.lm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.lm
+END
+eng.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.params
+END
+rus.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.fold
+END
+hun.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/hun.traineddata
+END
+swa.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/swa.traineddata
+END
+kor.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/kor.traineddata
+END
+est.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/est.traineddata
+END
+swe.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/swe.traineddata
+END
+ita.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.fold
+END
+ukr.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ukr.traineddata
+END
+hin.tesseract_cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/576/trunk/tessdata/hin.tesseract_cube.nn
+END
+spa.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/spa.cube.fold
+END
+ara.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/540/trunk/tessdata/ara.cube.word-freq
+END
+fra.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/fra.traineddata
+END
+glg.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/glg.traineddata
+END
+rus.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/771/trunk/tessdata/rus.traineddata
+END
+chi_tra.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/656/trunk/tessdata/chi_tra.traineddata
+END
+tur.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/tur.traineddata
+END
+slk-frak.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/545/trunk/tessdata/slk-frak.traineddata
+END
+ita_old.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/660/trunk/tessdata/ita_old.traineddata
+END
+chr.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/chr.traineddata
+END
+rus.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/656/trunk/tessdata/rus.cube.word-freq
+END
+ell.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ell.traineddata
+END
+ita.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/ita.traineddata
+END
+ita.cube.word-freq
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/656/trunk/tessdata/ita.cube.word-freq
+END
+spa_old.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/660/trunk/tessdata/spa_old.traineddata
+END
+frk.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/frk.traineddata
+END
+spa.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/spa.traineddata
+END
+epo.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/epo.traineddata
+END
+frm.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/frm.traineddata
+END
+pdf.ttf
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/971/trunk/tessdata/pdf.ttf
+END
+hin.cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.nn
+END
+slk.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/slk.traineddata
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/971/trunk/tessdata/Makefile.am
+END
+eng.cube.bigrams
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/526/trunk/tessdata/eng.cube.bigrams
+END
+mlt.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/656/trunk/tessdata/mlt.traineddata
+END
+fra.tesseract_cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/662/trunk/tessdata/fra.tesseract_cube.nn
+END
+hin.cube.params
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.params
+END
+eng.tesseract_cube.nn
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/526/trunk/tessdata/eng.tesseract_cube.nn
+END
+hrv.traineddata
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/660/trunk/tessdata/hrv.traineddata
+END
+hin.cube.fold
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/576/trunk/tessdata/hin.cube.fold
+END

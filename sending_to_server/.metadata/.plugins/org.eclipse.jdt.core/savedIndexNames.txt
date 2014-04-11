@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+C:\Users\mossr\Desktop\WIT\COMP566 (Software Dev w-Pierre)\sending_to_server\.metadata\.plugins\org.eclipse.jdt.core
+999493003.index
+1997730106.index
+4210556943.index
+2569173669.index
+3530448626.index
+673459420.index
+2297365889.index
+512415488.index
+3659651905.index
+1326217320.index
+499081042.index
+781385609.index
+1840356619.index
+1170785798.index
+592437588.index
+3831856114.index

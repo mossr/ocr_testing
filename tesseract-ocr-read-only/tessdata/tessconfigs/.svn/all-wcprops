@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/618/trunk/tessdata/tessconfigs
+END
+batch
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/86/trunk/tessdata/tessconfigs/batch
+END
+segdemo
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/526/trunk/tessdata/tessconfigs/segdemo
+END
+msdemo
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/526/trunk/tessdata/tessconfigs/msdemo
+END
+batch.nochop
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/300/trunk/tessdata/tessconfigs/batch.nochop
+END
+matdemo
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/300/trunk/tessdata/tessconfigs/matdemo
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/84/trunk/tessdata/tessconfigs/Makefile.am
+END
+nobatch
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/300/trunk/tessdata/tessconfigs/nobatch
+END

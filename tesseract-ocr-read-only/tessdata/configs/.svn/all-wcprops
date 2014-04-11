@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/974/trunk/tessdata/configs
+END
+rebox
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/526/trunk/tessdata/configs/rebox
+END
+inter
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/656/trunk/tessdata/configs/inter
+END
+logfile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/314/trunk/tessdata/configs/logfile
+END
+digits
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/576/trunk/tessdata/configs/digits
+END
+unlv
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/539/trunk/tessdata/configs/unlv
+END
+makebox
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/86/trunk/tessdata/configs/makebox
+END
+quiet
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/691/trunk/tessdata/configs/quiet
+END
+hocr
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/974/trunk/tessdata/configs/hocr
+END
+kannada
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/134/trunk/tessdata/configs/kannada
+END
+api_config
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/110/trunk/tessdata/configs/api_config
+END
+linebox
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/526/trunk/tessdata/configs/linebox
+END
+bazaar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/894/trunk/tessdata/configs/bazaar
+END
+get.image
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/826/trunk/tessdata/configs/get.image
+END
+bigram
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/661/trunk/tessdata/configs/bigram
+END
+box.train
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/539/trunk/tessdata/configs/box.train
+END
+box.train.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/589/trunk/tessdata/configs/box.train.stderr
+END
+strokewidth
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/526/trunk/tessdata/configs/strokewidth
+END
+pdf
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/972/trunk/tessdata/configs/pdf
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/972/trunk/tessdata/configs/Makefile.am
+END
+ambigs.train
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/656/trunk/tessdata/configs/ambigs.train
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/899/trunk/vs2010/include
+END
+tesseract_versionnumbers.props
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/899/trunk/vs2010/include/tesseract_versionnumbers.props
+END
+leptonica_versionnumbers.props
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/899/trunk/vs2010/include/leptonica_versionnumbers.props
+END

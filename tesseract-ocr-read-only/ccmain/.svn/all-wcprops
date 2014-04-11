@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/966/trunk/ccmain
+END
+applybox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/904/trunk/ccmain/applybox.cpp
+END
+werdit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccmain/werdit.cpp
+END
+cube_reco_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/651/trunk/ccmain/cube_reco_context.h
+END
+output.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/860/trunk/ccmain/output.h
+END
+fixspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/ccmain/fixspace.h
+END
+tessvars.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccmain/tessvars.cpp
+END
+osdetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/875/trunk/ccmain/osdetect.cpp
+END
+fixxht.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccmain/fixxht.cpp
+END
+reject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/954/trunk/ccmain/reject.cpp
+END
+tesseract_cube_combiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/677/trunk/ccmain/tesseract_cube_combiner.h
+END
+equationdetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/878/trunk/ccmain/equationdetect.cpp
+END
+ltrresultiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/878/trunk/ccmain/ltrresultiterator.h
+END
+pagesegmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/959/trunk/ccmain/pagesegmain.cpp
+END
+pgedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/903/trunk/ccmain/pgedit.h
+END
+adaptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/955/trunk/ccmain/adaptions.cpp
+END
+par_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/961/trunk/ccmain/par_control.cpp
+END
+thresholder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/954/trunk/ccmain/thresholder.cpp
+END
+superscript.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/872/trunk/ccmain/superscript.cpp
+END
+cubeclassifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/874/trunk/ccmain/cubeclassifier.cpp
+END
+tesseractclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/957/trunk/ccmain/tesseractclass.cpp
+END
+control.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/ccmain/control.h
+END
+pageiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/878/trunk/ccmain/pageiterator.cpp
+END
+tessbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/ccmain/tessbox.cpp
+END
+paragraphs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/961/trunk/ccmain/paragraphs.cpp
+END
+resultiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/961/trunk/ccmain/resultiterator.cpp
+END
+tessedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/ccmain/tessedit.h
+END
+paragraphs_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/753/trunk/ccmain/paragraphs_internal.h
+END
+cube_reco_context.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/651/trunk/ccmain/cube_reco_context.cpp
+END
+paramsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/ccmain/paramsd.h
+END
+docqual.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/ccmain/docqual.h
+END
+output.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccmain/output.cpp
+END
+fixspace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/904/trunk/ccmain/fixspace.cpp
+END
+werdit.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccmain/werdit.h
+END
+mutableiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/651/trunk/ccmain/mutableiterator.h
+END
+tesseract_cube_combiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/878/trunk/ccmain/tesseract_cube_combiner.cpp
+END
+ltrresultiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/878/trunk/ccmain/ltrresultiterator.cpp
+END
+pgedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/955/trunk/ccmain/pgedit.cpp
+END
+cube_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/904/trunk/ccmain/cube_control.cpp
+END
+tessvars.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/956/trunk/ccmain/tessvars.h
+END
+osdetect.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/886/trunk/ccmain/osdetect.h
+END
+control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/904/trunk/ccmain/control.cpp
+END
+reject.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccmain/reject.h
+END
+tfacepp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/ccmain/tfacepp.cpp
+END
+equationdetect.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/646/trunk/ccmain/equationdetect.h
+END
+tessedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/960/trunk/ccmain/tessedit.cpp
+END
+paramsd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/688/trunk/ccmain/paramsd.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/958/trunk/ccmain/Makefile.am
+END
+docqual.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/ccmain/docqual.cpp
+END
+tesseractclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/957/trunk/ccmain/tesseractclass.h
+END
+cubeclassifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/874/trunk/ccmain/cubeclassifier.h
+END
+thresholder.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/955/trunk/ccmain/thresholder.h
+END
+pagewalk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccmain/pagewalk.cpp
+END
+recogtraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/904/trunk/ccmain/recogtraining.cpp
+END
+pageiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/918/trunk/ccmain/pageiterator.h
+END
+tessbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/860/trunk/ccmain/tessbox.h
+END
+resultiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/878/trunk/ccmain/resultiterator.h
+END
+paragraphs.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/725/trunk/ccmain/paragraphs.h
+END

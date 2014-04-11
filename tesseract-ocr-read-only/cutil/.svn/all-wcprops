@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/974/trunk/cutil
+END
+listio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/878/trunk/cutil/listio.cpp
+END
+cutil_class.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/292/trunk/cutil/cutil_class.cpp
+END
+listio.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/4/trunk/cutil/listio.h
+END
+oldlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/cutil/oldlist.cpp
+END
+cutil_class.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/cutil/cutil_class.h
+END
+danerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/cutil/danerror.cpp
+END
+bitvec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/878/trunk/cutil/bitvec.cpp
+END
+emalloc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/974/trunk/cutil/emalloc.cpp
+END
+freelist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/658/trunk/cutil/freelist.cpp
+END
+callcpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/860/trunk/cutil/callcpp.cpp
+END
+oldlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/cutil/oldlist.h
+END
+cutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/604/trunk/cutil/cutil.cpp
+END
+danerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/cutil/danerror.h
+END
+bitvec.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/878/trunk/cutil/bitvec.h
+END
+emalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/974/trunk/cutil/emalloc.h
+END
+efio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/4/trunk/cutil/efio.cpp
+END
+freelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/658/trunk/cutil/freelist.h
+END
+structures.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/cutil/structures.cpp
+END
+callcpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/cutil/callcpp.h
+END
+cutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/526/trunk/cutil/cutil.h
+END
+efio.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/4/trunk/cutil/efio.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/cutil/Makefile.am
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/cutil/globals.h
+END
+structures.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/cutil/structures.h
+END
+const.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/526/trunk/cutil/const.h
+END

@@ -1,0 +1,503 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/974/trunk/ccstruct
+END
+ocrblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/878/trunk/ccstruct/ocrblock.cpp
+END
+blobs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/904/trunk/ccstruct/blobs.cpp
+END
+quadratc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/860/trunk/ccstruct/quadratc.cpp
+END
+quspline.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/870/trunk/ccstruct/quspline.h
+END
+blamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/blamer.h
+END
+crakedge.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/531/trunk/ccstruct/crakedge.h
+END
+ocrrow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccstruct/ocrrow.cpp
+END
+dppoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/ccstruct/dppoint.cpp
+END
+mod128.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/163/trunk/ccstruct/mod128.h
+END
+vecfuncs.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/ccstruct/vecfuncs.h
+END
+points.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/876/trunk/ccstruct/points.h
+END
+pdblock.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/943/trunk/ccstruct/pdblock.h
+END
+normalis.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/876/trunk/ccstruct/normalis.cpp
+END
+seam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/seam.cpp
+END
+boxword.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/918/trunk/ccstruct/boxword.h
+END
+blckerr.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/4/trunk/ccstruct/blckerr.h
+END
+pageres.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/904/trunk/ccstruct/pageres.h
+END
+detlinefit.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/870/trunk/ccstruct/detlinefit.h
+END
+ratngs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/904/trunk/ccstruct/ratngs.cpp
+END
+blread.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/ccstruct/blread.h
+END
+ccstruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/943/trunk/ccstruct/ccstruct.h
+END
+split.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/655/trunk/ccstruct/split.h
+END
+linlsq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/870/trunk/ccstruct/linlsq.cpp
+END
+ocrblock.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/943/trunk/ccstruct/ocrblock.h
+END
+werd.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/757/trunk/ccstruct/werd.h
+END
+otsuthr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/974/trunk/ccstruct/otsuthr.cpp
+END
+quadratc.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/163/trunk/ccstruct/quadratc.h
+END
+quadlsq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/870/trunk/ccstruct/quadlsq.cpp
+END
+stepblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/876/trunk/ccstruct/stepblob.cpp
+END
+polyblk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/ccstruct/polyblk.cpp
+END
+fontinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/943/trunk/ccstruct/fontinfo.cpp
+END
+detlinefit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/870/trunk/ccstruct/detlinefit.cpp
+END
+normalis.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/876/trunk/ccstruct/normalis.h
+END
+blread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccstruct/blread.cpp
+END
+split.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/878/trunk/ccstruct/split.cpp
+END
+params_training_featdef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/878/trunk/ccstruct/params_training_featdef.cpp
+END
+statistc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/870/trunk/ccstruct/statistc.cpp
+END
+hpdsizes.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/4/trunk/ccstruct/hpdsizes.h
+END
+werd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/werd.cpp
+END
+ratngs.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/ratngs.h
+END
+coutln.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/898/trunk/ccstruct/coutln.cpp
+END
+matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/ccstruct/matrix.cpp
+END
+linlsq.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/870/trunk/ccstruct/linlsq.h
+END
+genblob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/860/trunk/ccstruct/genblob.cpp
+END
+publictypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/820/trunk/ccstruct/publictypes.h
+END
+rejctmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccstruct/rejctmap.h
+END
+otsuthr.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/943/trunk/ccstruct/otsuthr.h
+END
+polyaprx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/876/trunk/ccstruct/polyaprx.cpp
+END
+quadlsq.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/163/trunk/ccstruct/quadlsq.h
+END
+stepblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/876/trunk/ccstruct/stepblob.h
+END
+polyblk.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/860/trunk/ccstruct/polyblk.h
+END
+boxread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/890/trunk/ccstruct/boxread.cpp
+END
+fontinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/874/trunk/ccstruct/fontinfo.h
+END
+blobbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/876/trunk/ccstruct/blobbox.h
+END
+ocrpara.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/655/trunk/ccstruct/ocrpara.h
+END
+quspline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/870/trunk/ccstruct/quspline.cpp
+END
+params_training_featdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/878/trunk/ccstruct/params_training_featdef.h
+END
+blamer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/ccstruct/blamer.cpp
+END
+rect.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccstruct/rect.h
+END
+publictypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/716/trunk/ccstruct/publictypes.cpp
+END
+statistc.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/870/trunk/ccstruct/statistc.h
+END
+rejctmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/860/trunk/ccstruct/rejctmap.cpp
+END
+blobs.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/904/trunk/ccstruct/blobs.h
+END
+coutln.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/876/trunk/ccstruct/coutln.h
+END
+matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/matrix.h
+END
+mod128.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/860/trunk/ccstruct/mod128.cpp
+END
+vecfuncs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/860/trunk/ccstruct/vecfuncs.cpp
+END
+points.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/883/trunk/ccstruct/points.cpp
+END
+genblob.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/557/trunk/ccstruct/genblob.h
+END
+pdblock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/943/trunk/ccstruct/pdblock.cpp
+END
+ocrrow.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/757/trunk/ccstruct/ocrrow.h
+END
+dppoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/ccstruct/dppoint.h
+END
+polyaprx.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/876/trunk/ccstruct/polyaprx.h
+END
+boxword.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/878/trunk/ccstruct/boxword.cpp
+END
+pageres.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/904/trunk/ccstruct/pageres.cpp
+END
+ocrpara.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/655/trunk/ccstruct/ocrpara.cpp
+END
+blobbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/876/trunk/ccstruct/blobbox.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/943/trunk/ccstruct/Makefile.am
+END
+boxread.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/655/trunk/ccstruct/boxread.h
+END
+ccstruct.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/943/trunk/ccstruct/ccstruct.cpp
+END
+ipoints.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/568/trunk/ccstruct/ipoints.h
+END
+seam.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/ccstruct/seam.h
+END
+rect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/ccstruct/rect.cpp
+END

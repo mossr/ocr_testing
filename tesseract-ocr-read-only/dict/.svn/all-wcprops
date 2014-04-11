@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/944/trunk/dict
+END
+stopper.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/878/trunk/dict/stopper.h
+END
+trie.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/878/trunk/dict/trie.cpp
+END
+matchdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/649/trunk/dict/matchdefs.h
+END
+dawg_cache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/878/trunk/dict/dawg_cache.cpp
+END
+permdawg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/944/trunk/dict/permdawg.cpp
+END
+trie.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/894/trunk/dict/trie.h
+END
+dawg_cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/878/trunk/dict/dawg_cache.h
+END
+dawg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/890/trunk/dict/dawg.cpp
+END
+dict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/944/trunk/dict/dict.cpp
+END
+context.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/dict/context.cpp
+END
+dawg.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/878/trunk/dict/dawg.h
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/944/trunk/dict/dict.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/944/trunk/dict/Makefile.am
+END
+hyphen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/878/trunk/dict/hyphen.cpp
+END
+stopper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/944/trunk/dict/stopper.cpp
+END

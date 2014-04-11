@@ -1,0 +1,491 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/974/trunk/classify
+END
+flexfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/873/trunk/classify/flexfx.h
+END
+intmatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/904/trunk/classify/intmatcher.h
+END
+mfdefs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/4/trunk/classify/mfdefs.cpp
+END
+mfoutline.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/873/trunk/classify/mfoutline.h
+END
+mf.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/873/trunk/classify/mf.h
+END
+shapeclassifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/873/trunk/classify/shapeclassifier.h
+END
+extract.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/873/trunk/classify/extract.cpp
+END
+extern.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/115/trunk/classify/extern.h
+END
+cutoffs.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/291/trunk/classify/cutoffs.h
+END
+normfeat.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/873/trunk/classify/normfeat.h
+END
+mastertrainer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/974/trunk/classify/mastertrainer.cpp
+END
+classify.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/904/trunk/classify/classify.h
+END
+kdtree.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/classify/kdtree.h
+END
+fxdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/classify/fxdefs.h
+END
+xform2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/291/trunk/classify/xform2d.h
+END
+protos.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/715/trunk/classify/protos.cpp
+END
+intfeaturespace.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/650/trunk/classify/intfeaturespace.h
+END
+clusttool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/650/trunk/classify/clusttool.cpp
+END
+tessclassifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/873/trunk/classify/tessclassifier.h
+END
+intfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/904/trunk/classify/intfx.cpp
+END
+picofeat.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/873/trunk/classify/picofeat.h
+END
+float2int.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/839/trunk/classify/float2int.cpp
+END
+adaptive.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/570/trunk/classify/adaptive.h
+END
+intfeaturemap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/650/trunk/classify/intfeaturemap.cpp
+END
+shapeclassifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/873/trunk/classify/shapeclassifier.cpp
+END
+mfdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/classify/mfdefs.h
+END
+cutoffs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/650/trunk/classify/cutoffs.cpp
+END
+normfeat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/873/trunk/classify/normfeat.cpp
+END
+classify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/947/trunk/classify/classify.cpp
+END
+fxdefs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/650/trunk/classify/fxdefs.cpp
+END
+extract.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/873/trunk/classify/extract.h
+END
+xform2d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/291/trunk/classify/xform2d.cpp
+END
+tessclassifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/873/trunk/classify/tessclassifier.cpp
+END
+mastertrainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/873/trunk/classify/mastertrainer.h
+END
+featdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/650/trunk/classify/featdefs.h
+END
+normmatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/894/trunk/classify/normmatch.cpp
+END
+intfeaturedist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/650/trunk/classify/intfeaturedist.cpp
+END
+mfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/873/trunk/classify/mfx.cpp
+END
+protos.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/946/trunk/classify/protos.h
+END
+intfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/904/trunk/classify/intfx.h
+END
+adaptive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/715/trunk/classify/adaptive.cpp
+END
+clusttool.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/650/trunk/classify/clusttool.h
+END
+trainingsampleset.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/873/trunk/classify/trainingsampleset.h
+END
+sampleiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/650/trunk/classify/sampleiterator.h
+END
+blobclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/873/trunk/classify/blobclass.cpp
+END
+fpoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/classify/fpoint.h
+END
+adaptmatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/930/trunk/classify/adaptmatch.cpp
+END
+float2int.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/650/trunk/classify/float2int.h
+END
+shapetable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/873/trunk/classify/shapetable.cpp
+END
+intfeaturemap.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/650/trunk/classify/intfeaturemap.h
+END
+outfeat.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/classify/outfeat.h
+END
+intproto.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/873/trunk/classify/intproto.cpp
+END
+featdefs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/873/trunk/classify/featdefs.cpp
+END
+trainingsample.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/873/trunk/classify/trainingsample.h
+END
+ocrfeatures.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/873/trunk/classify/ocrfeatures.cpp
+END
+cluster.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/650/trunk/classify/cluster.h
+END
+chartoname.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4/trunk/classify/chartoname.h
+END
+trainingsampleset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/873/trunk/classify/trainingsampleset.cpp
+END
+sampleiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/650/trunk/classify/sampleiterator.cpp
+END
+flexfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/873/trunk/classify/flexfx.cpp
+END
+normmatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/classify/normmatch.h
+END
+errorcounter.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/873/trunk/classify/errorcounter.h
+END
+intmatcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/904/trunk/classify/intmatcher.cpp
+END
+intfeaturedist.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/650/trunk/classify/intfeaturedist.h
+END
+fpoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/291/trunk/classify/fpoint.cpp
+END
+mfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/873/trunk/classify/mfx.h
+END
+mfoutline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/873/trunk/classify/mfoutline.cpp
+END
+mf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/873/trunk/classify/mf.cpp
+END
+outfeat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/classify/outfeat.cpp
+END
+blobclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/873/trunk/classify/blobclass.h
+END
+shapetable.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/873/trunk/classify/shapetable.h
+END
+trainingsample.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/873/trunk/classify/trainingsample.cpp
+END
+kdtree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/classify/kdtree.cpp
+END
+chartoname.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/4/trunk/classify/chartoname.cpp
+END
+cluster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/873/trunk/classify/cluster.cpp
+END
+intfeaturespace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/873/trunk/classify/intfeaturespace.cpp
+END
+intproto.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/873/trunk/classify/intproto.h
+END
+ocrfeatures.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/873/trunk/classify/ocrfeatures.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/947/trunk/classify/Makefile.am
+END
+errorcounter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/873/trunk/classify/errorcounter.cpp
+END
+picofeat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/904/trunk/classify/picofeat.cpp
+END

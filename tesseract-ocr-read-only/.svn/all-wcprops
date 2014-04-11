@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/974/trunk
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/819/trunk/AUTHORS
+END
+tesseract.spec
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/461/trunk/tesseract.spec
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/970/trunk/ChangeLog
+END
+ReleaseNotes
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/658/trunk/ReleaseNotes
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/759/trunk/README
+END
+eurotext.tif
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/84/trunk/eurotext.tif
+END
+tesseract.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/817/trunk/tesseract.pc.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/967/trunk/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/667/trunk/INSTALL
+END
+makemoredists
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/802/trunk/makemoredists
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/639/trunk/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/967/trunk/Makefile.am
+END
+phototest.tif
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/4/trunk/phototest.tif
+END
+INSTALL.SVN
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/899/trunk/INSTALL.SVN
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/885/trunk/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/4/trunk/NEWS
+END

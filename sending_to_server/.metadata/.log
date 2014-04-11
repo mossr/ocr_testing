@@ -1,0 +1,2767 @@
+!SESSION 2014-01-14 20:28:53.948 -----------------------------------------------
+eclipse.buildId=v22.0.5-757759
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-01-14 20:29:57.886
+!MESSAGE Failed to load properties file for project 'Photo2Server'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-01-14 20:30:05.367
+!MESSAGE Failed to render set of icons for AnalogClock, AutoCompleteTextView, Button, SmallButton, CheckBox, CheckedTextView, DigitalClock, PlainText, Password, PasswordNumeric, PersonName, Phone, PostalAddress, MultilineText, Date, Time, Email, Number, NumberSigned, NumberDecimal, LargeText, MediumText, SmallText, MultiAutoCompleteTextView, ProgressBarNormal, ProgressBarHorizontal, ProgressBarLarge, ProgressBarSmall, QuickContactBadge, RadioButton, RatingBar, SeekBar, ListView, ExpandableListView, Spinner, TextView, ToggleButton, ZoomButton, ZoomControls, CalendarView, RadioGroup
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-01-14 20:30:05.369
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at android.text.SpannableStringBuilder.<init>(SpannableStringBuilder.java:44)
+	at android.text.format.DateFormat.format(DateFormat.java:462)
+	at android.widget.DigitalClock$1.run(DigitalClock.java:87)
+	at android.widget.DigitalClock.onAttachedToWindow(DigitalClock.java:94)
+	at android.view.View.dispatchAttachedToWindow(View.java:12125)
+	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2460)
+	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2460)
+	at android.view.AttachInfo_Accessor.setAttachInfo(AttachInfo_Accessor.java:42)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:408)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:336)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:333)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:451)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1320)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:764)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onTargetChange(GraphicalEditorPart.java:1189)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.onDescriptorsChanged(LayoutEditorDelegate.java:916)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateInitUiRootNode(LayoutEditorDelegate.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateXmlModelChanged(LayoutEditorDelegate.java:393)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.xmlModelChanged(CommonXmlEditor.java:329)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor$XmlModelStateListener.modelChanged(AndroidXmlEditor.java:1653)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.createTextEditor(AndroidXmlEditor.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.createAndroidPages(AndroidXmlEditor.java:320)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.addPages(AndroidXmlEditor.java:310)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.addPages(CommonXmlEditor.java:285)
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:138)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:358)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:138)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:313)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:861)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:841)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:113)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:321)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:242)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:53)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:141)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:731)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:702)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:696)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:681)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:92)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4687)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:187)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:422)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:389)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:606)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:332)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1029)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3047)
+	at org.eclipse.ui.internal.WorkbenchPage.access$22(WorkbenchPage.java:2969)
+	at org.eclipse.ui.internal.WorkbenchPage$8.run(WorkbenchPage.java:2951)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2947)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2911)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2902)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:655)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:614)
+	at com.android.ide.eclipse.adt.AdtPlugin.openFile(AdtPlugin.java:2010)
+	at com.android.ide.eclipse.adt.internal.wizards.templates.NewTemplateWizard$1.run(NewTemplateWizard.java:168)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14b6893,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c1edc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15bf69e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13c05b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9c382f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1206be1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2cd699,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@27562f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1bcf8c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17d43bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16f0c4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d3a52a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1904a1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8b43ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f14c08,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b6debd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d94baf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12437c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f7e8c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14bcec4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d1d65f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@aa591e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1511ac8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e76c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-14 20:34:14.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b56b33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@459409,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:19.729
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:21.519
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:23.333
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:31.884
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1083)
+	at org.eclipse.ui.forms.editor.FormEditor.setActivePage(FormEditor.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.setActivePage(AndroidXmlEditor.java:516)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.setActivePage(CommonXmlEditor.java:387)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.show(AndroidXmlEditor.java:1291)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.showXml(LayoutCanvas.java:1276)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.show(LayoutCanvas.java:1134)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$Listener.mouseDoubleClick(GestureManager.java:514)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:34.153
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:37.271
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:39.880
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:40.767
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:730)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:44:56.734
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:45:18.975
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:45:26.282
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:45:45.785
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:45:59.196
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:08.292
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:09.678
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:11.648
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:730)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:20.362
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:22.048
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:25.016
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:27.996
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-01-14 21:46:57.511
+!MESSAGE activity_main.xml: Dimension "400" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-01-14 21:46:57.515
+!MESSAGE activity_main.xml: Dimension "600" in attribute "layout_height" is missing unit!
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:57.625
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:46:59.563
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:00.571
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:730)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:01.163
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:01.952
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1083)
+	at org.eclipse.ui.forms.editor.FormEditor.setActivePage(FormEditor.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.setActivePage(AndroidXmlEditor.java:516)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.setActivePage(CommonXmlEditor.java:387)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.show(AndroidXmlEditor.java:1291)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.showXml(LayoutCanvas.java:1276)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.show(LayoutCanvas.java:1134)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$Listener.mouseDoubleClick(GestureManager.java:514)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:16.891
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:19.045
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:730)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:23.029
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:25.221
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.processDropEvent(MoveGesture.java:800)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.dragOver(MoveGesture.java:270)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDropListener.dragOver(GestureManager.java:635)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:80)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.DragOver(DropTarget.java:366)
+	at org.eclipse.swt.dnd.DropTarget$3.method4(DropTarget.java:250)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback4(COMObject.java:101)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2014-01-14 21:47:43.180
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:331)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:637)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:153)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.VisualRefactoringWizard.performFinish(VisualRefactoringWizard.java:40)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:455)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:187)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:202)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.ChangeLayoutAction.run(ChangeLayoutAction.java:37)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.VisualRefactoringAction$ActionWrapper.run(VisualRefactoringAction.java:166)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.project.SupportLibraryHelper.getTagFor(SupportLibraryHelper.java:103)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.GridLayoutConverter.insertStretchableSpans(GridLayoutConverter.java:232)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.GridLayoutConverter.convertToGridLayout(GridLayoutConverter.java:155)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.ChangeLayoutRefactoring.convertAnyToGridLayout(ChangeLayoutRefactoring.java:616)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.ChangeLayoutRefactoring.computeChanges(ChangeLayoutRefactoring.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.VisualRefactoring.checkFinalConditions(VisualRefactoring.java:250)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:85)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:121)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:209)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Root exception:
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.project.SupportLibraryHelper.getTagFor(SupportLibraryHelper.java:103)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.GridLayoutConverter.insertStretchableSpans(GridLayoutConverter.java:232)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.GridLayoutConverter.convertToGridLayout(GridLayoutConverter.java:155)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.ChangeLayoutRefactoring.convertAnyToGridLayout(ChangeLayoutRefactoring.java:616)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.ChangeLayoutRefactoring.computeChanges(ChangeLayoutRefactoring.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.refactoring.VisualRefactoring.checkFinalConditions(VisualRefactoring.java:250)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:85)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:121)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:209)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.jface 4 2 2014-01-14 21:47:48.552
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1083)
+	at org.eclipse.ui.forms.editor.FormEditor.setActivePage(FormEditor.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.setActivePage(AndroidXmlEditor.java:516)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.setActivePage(CommonXmlEditor.java:387)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.show(AndroidXmlEditor.java:1291)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.showXml(LayoutCanvas.java:1276)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas.show(LayoutCanvas.java:1134)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage$7.doubleClick(OutlinePage.java:456)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:843)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1477)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1246)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:249)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:246)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:307)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:50.855
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:47:52.200
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3251)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:789)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:644)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:768)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1646)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1643)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1073)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.setSelection(OutlinePage.java:607)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.SelectionManager.syncOutlineSelection(SelectionManager.java:990)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.MoveGesture.end(MoveGesture.java:144)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.finishGesture(GestureManager.java:288)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.startGesture(GestureManager.java:252)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager.access$6(GestureManager.java:250)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GestureManager$CanvasDragSourceListener.dragStart(GestureManager.java:831)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:34)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:296)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:48:10.902
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 21:50:15.021
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at org.eclipse.swt.custom.SashForm.<init>(SashForm.java:83)
+	at org.eclipse.wb.core.controls.SelfOrientingSashForm.<init>(SelfOrientingSashForm.java:65)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlinePage.createControl(OutlinePage.java:315)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-01-14 22:00:28.177
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:278)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:149)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:110)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:75)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:95)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline$EmptyPage.createControl(XmlEditorMultiOutline.java:184)
+	at com.android.ide.eclipse.adt.internal.editors.XmlEditorMultiOutline.setPageActive(XmlEditorMultiOutline.java:158)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.updateOutline(LayoutEditorDelegate.java:648)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePostPageChange(LayoutEditorDelegate.java:713)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:366)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2014-01-15 08:52:02.482 -----------------------------------------------
+eclipse.buildId=v22.0.5-757759
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-01-15 09:14:47.668
+!MESSAGE activity_main.xml: android.widget.EditText cannot be cast to android.view.ViewGroup
+!STACK 0
+java.lang.ClassCastException: android.widget.EditText cannot be cast to android.view.ViewGroup
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:756)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:727)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:758)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:727)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:373)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:400)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:336)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:333)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:451)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1545)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1302)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.activated(GraphicalEditorPart.java:1059)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegatePageChange(LayoutEditorDelegate.java:686)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.pageChange(CommonXmlEditor.java:360)
+	at org.eclipse.ui.part.MultiPageEditorPart$2.widgetSelected(MultiPageEditorPart.java:292)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3028)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1749)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:278)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@213a8d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4efce4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18b1ccb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1727992,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f8261,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14a3cee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@38b370,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10ea6f8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8c7e2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16c2318,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1afc1c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b7e080,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1da31e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ae166c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b1e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19e6439,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c5f9c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13dbc65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.925
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@92315f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c20352,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.926
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e77724,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d028af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.926
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13f0a98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@57bfae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-15 09:30:50.926
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d0b829,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@de896,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)

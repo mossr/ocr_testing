@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/751/trunk/testing
+END
+reorgdata.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/86/trunk/testing/reorgdata.sh
+END
+runtestset.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/751/trunk/testing/runtestset.sh
+END
+runalltests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/328/trunk/testing/runalltests.sh
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/269/trunk/testing/Makefile.am
+END
+counttestset.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/328/trunk/testing/counttestset.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/86/trunk/testing/README
+END
